@@ -1,0 +1,29 @@
+{
+  "type": "record",
+  "name": "TransformedVehicleWrapper",
+  "fields": [
+    {
+      "name": "vehicle",
+      "type": {
+        "type": "record",
+        "name": "Vehicle",
+        "fields": [
+          { "name": "price", "type": ["null", "string"], "default": null },
+          { "name": "certified", "type": ["null", "boolean"], "default": null },
+          {
+            "name": "buyer",
+            "type": {
+              "type": "record",
+              "name": "Buyer",
+              "fields": [
+                { "name": "contactID", "type": ["null", "string"], "default": null },
+                { "name": "fullName", "type": ["null", "string"], "default": null },
+                { "name": "isPerson", "type": ["null", "boolean"], "default": null }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

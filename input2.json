@@ -1,0 +1,32 @@
+{
+  "input2": {
+  "vehicle": {
+    "specs": {
+      "engine": "2.0L Turbo",
+      "fuel": "Gasoline"
+    },
+    "features": [
+      { 
+        "id": "feature1",
+        "name": "Sunroof" 
+      },
+      { 
+        "id": "feature2",
+        "name": "Leather Seats" 
+      },
+      { 
+        "id": "feature3",
+        "name": null
+      },
+      { 
+        "id": "feature4",
+        "name": "Keyless Entry" 
+      }
+    ],
+    "price": {
+      "retail": "23000",
+      "invoice": "21000"
+    }
+  }
+}
+}
