@@ -28,7 +28,7 @@ Then install dependencies:
 
 ### 📋 Objective
 
-Transform input1 from **input.py** to match the schema in **schema.json**. Your output will be validated using fastavro.
+Transform input1 from **input1.json** to match the schema in **schema.json**. Your output will be validated using fastavro.
 
 ## ✅ Tasks
 - Read the input1 from `input.py`
@@ -47,7 +47,7 @@ Transform input1 from **input.py** to match the schema in **schema.json**. Your 
 Transform the given input object into the expected output as shown below.
 
 ## ✅ Tasks
-- Read the input2 from `input.py`
+- Read the input2 from `input2.json`
 - Write transformation logic in `flatten.py`
 - Write test cases in `test_flatten.test.py`
 
