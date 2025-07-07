@@ -8,7 +8,7 @@
         "type": "record",
         "name": "Vehicle",
         "fields": [
-          { "name": "price", "type": ["null", "string"], "default": null },
+          { "name": "totalPrice", "type": ["null", "string"], "default": null },
           { "name": "certified", "type": ["null", "boolean"], "default": null },
           {
             "name": "buyer",

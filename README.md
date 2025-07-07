@@ -28,10 +28,11 @@ Then install dependencies:
 
 ### 📋 Objective
 
+Return data for totalPrice (price+fee), certified, contactID, fullName, isPerson
 Transform input1 from **input1.json** to match the schema in **schema.json**. Your output will be validated using fastavro.
 
 ## ✅ Tasks
-- Read the input1 from `input.py`
+- Read the input1 from `input1.json`
 - Write transformation logic in `transform.py`
 - Output must conform to `schema.json`
 - Write test cases in `test_transform.test.py`
